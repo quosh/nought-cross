@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Step 01') {
       steps {
         sh 'echo "This is build $BUILD_NUMBER of demo $DEMO"'
       }
